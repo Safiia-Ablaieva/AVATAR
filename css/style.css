@@ -1,0 +1,334 @@
+body {
+  width: 1440px;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* header */
+header {
+  width: 1440px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2b4a61de;
+  background-image: url(/images/Rectangle-104.png);
+}
+.header-position {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container {
+  width: 1440px;
+  /* outline: 4px solid black; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-nav-list {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+
+  /* left: 50%; */
+  display: flex;
+  gap: 40px;
+  font-style: normal;
+  font-weight: 300;
+  text-decoration: none;
+  padding-left: 558px;
+  position: absolute;
+  color: #ffffff;
+}
+
+.entrance {
+  color: #26c6ea;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 141px;
+  height: 41.694px;
+  flex-shrink: 0;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0px;
+  background-color: #0b0e66;
+  margin-left: 1095px;
+}
+/* main */
+.section-one {
+  width: 1440px;
+  height: 740px;
+  flex-shrink: 0;
+  background-image: url(/images/Group-48-1.png);
+}
+
+.description {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 330px;
+  padding-left: 204px;
+  color: #ffffff;
+}
+.description-translete {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 450px;
+  padding-left: 204px;
+  color: #ffffff;
+  color: #fff;
+}
+
+.link-to-clan {
+  color: #26c7ea;
+  text-align: center;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 260px;
+  height: 80px;
+  top: 700px;
+
+  color: #26c7ea;
+  font-family: Inter;
+  position: absolute;
+  background: #0b0e66;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0px;
+  background-color: #0b0e66;
+  margin-left: 204px;
+}
+
+.a-lot-of-people {
+  color: #0a3853;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.thunderstorm {
+  color: #0a3853;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.signature {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-treyler {
+  color: #26c7ea;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 260px;
+  height: 80px;
+  padding: 25px 19px 25px 20px;
+  flex-shrink: 0;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
+  top: 1630px;
+  position: absolute;
+  margin-left: 609px;
+}
+.energy {
+  color: #141414;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-item-less {
+  width: 1440px;
+  height: 704px;
+  flex-shrink: 0;
+  background-image: url(/images/Rectangle-20.png);
+}
+.learn-the-lesson {
+  position: absolute;
+  width: 285px;
+  height: 40px;
+  left: 577px;
+  top: 2389px;
+
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+  text-align: justify;
+
+  color: #141414;
+}
+
+.case-three {
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  left: 917px;
+  top: 2474px;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+/* Rectangle 92 */
+
+.case-six {
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  left: 915px;
+  top: 2738px;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+.case-one {
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  left: 204px;
+  top: 2474px;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+.text-one {
+  color: #141414;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.translete-one {
+  color: #000;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.case-two {
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  left: 560px;
+  top: 2474px;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+.text-two {
+  color: #141414;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.translete-two {
+  color: #000;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.case-five {
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  left: 560px;
+  top: 2738px;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+.text-five {
+  color: #141414;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.translete-five {
+  color: #000;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.case-four {
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  left: 204px;
+  top: 2738px;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+.text-four {
+  color: #141414;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.translete-four {
+  color: #000;
+  text-align: justify;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
