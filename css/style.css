@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 1440px;
 }
@@ -11,17 +15,22 @@ a {
 /* header */
 header {
   width: 1440px;
-  max-width: 100%;
-  margin-left: auto;
+  /* max-width: 100%; */
+  /* margin-left: auto;
   margin-right: auto;
-  padding: 30px 15px;
-  display: flex;
+  padding: 30px 15px; */
+
   justify-content: space-between;
-  background-color: #2b4a61de;
-  background-image: url(/images/rectangle-104.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.8)
+    ),
+    url(/images/rectangle-104.png);
+  background-repeat: no-repeat;
 }
 .header-position {
-  width: 1440px;
+  width: 1030px;
   /* margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -30,17 +39,17 @@ header {
 .container {
   width: 1030px;
   /* outline: 4px solid black; */
-
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-nav-list {
+  display: block;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 20px;
-
-  /* left: 50%; */
   display: flex;
   gap: 40px;
   font-style: normal;
@@ -54,7 +63,7 @@ header {
 .entrance {
   color: #26c6ea;
   text-align: justify;
-  font-family: Headland One;
+  font-family: "Headland One";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -72,11 +81,10 @@ header {
   width: 1440px;
   height: 740px;
   flex-shrink: 0;
-  /* background-image: url(/images/group-48.png); */
 }
 
 .description {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -87,7 +95,7 @@ header {
   color: #ffffff;
 }
 .description-translete {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -96,13 +104,12 @@ header {
   top: 450px;
   padding-left: 204px;
   color: #ffffff;
-  color: #fff;
 }
 
 .link-to-clan {
   color: #26c7ea;
   text-align: center;
-  font-family: Headland One;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -110,11 +117,8 @@ header {
   width: 260px;
   height: 80px;
   top: 700px;
-
-  color: #26c7ea;
-  font-family: Inter;
+  font-family: "Inter";
   position: absolute;
-  background: #0b0e66;
   border: 2px solid #26c7ea;
   border-radius: 35px 0px;
   background-color: #0b0e66;
@@ -124,7 +128,7 @@ header {
 .a-lot-of-people {
   color: #0a3853;
   text-align: justify;
-  font-family: Inter;
+  font-family: " Inter";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -134,7 +138,7 @@ header {
 .thunderstorm {
   color: #0a3853;
   text-align: justify;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -143,7 +147,7 @@ header {
 .signature {
   color: #000;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +157,7 @@ header {
 .link-treyler {
   color: #26c7ea;
   text-align: justify;
-  font-family: Headland One;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -172,7 +176,7 @@ header {
 .energy {
   color: #141414;
   text-align: justify;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -180,10 +184,10 @@ header {
 }
 
 .nav-item-less {
-  width: 1440px;
+  width: 1030px;
   height: 704px;
   flex-shrink: 0;
-  /* background-image: url(/images/rectangle-20.png); */
+  background-image: url(/images/rectangle-20.png);
   display: flex;
 }
 .learn-the-lesson {
@@ -213,7 +217,6 @@ header {
 
   background: rgba(255, 255, 255, 0.7);
 }
-/* Rectangle 92 */
 
 .case-six {
   position: absolute;
@@ -236,7 +239,7 @@ header {
 .text-one {
   color: #141414;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -245,7 +248,7 @@ header {
 .translete-one {
   color: #000;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -263,7 +266,7 @@ header {
 .text-two {
   color: #141414;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -272,7 +275,7 @@ header {
 .translete-two {
   color: #000;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -290,7 +293,7 @@ header {
 .text-five {
   color: #141414;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -299,7 +302,7 @@ header {
 .translete-five {
   color: #000;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -317,7 +320,7 @@ header {
 .text-four {
   color: #141414;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -326,9 +329,23 @@ header {
 .translete-four {
   color: #000;
   text-align: justify;
-  font-family: HeadlandOne;
+  font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 100% */
+}
+.footer-posotion {
+  width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.8)
+    ),
+    url(/images/rectangle-104.png);
+  background-repeat: no-repeat;
 }
