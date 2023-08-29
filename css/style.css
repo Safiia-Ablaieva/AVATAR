@@ -29,7 +29,7 @@ header {
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.8)
     ),
-    url("../images/rectangle-104.png");
+    url("../images/Rectangle-104.png");
   background-repeat: no-repeat;
 }
 .header-position {
@@ -120,7 +120,7 @@ header {
   width: 1440px;
   height: 740px;
   flex-shrink: 0;
-  background-image: url("../images/rectangle-20.png");
+  background-image: url("../images/Rectangle-20.png");
   background-repeat: no-repeat;
 }
 
@@ -145,19 +145,6 @@ header {
   color: #ffffff;
 }
 
-.link-networks {
-  width: 30px;
-  height: 30px;
-  flex-shrink: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  top: 50%;
-  right: 5%;
-  /* transform: translateY(-50%); */
-}
 .link-to-clan {
   color: #26c7ea;
   text-align: center;
@@ -227,6 +214,7 @@ header {
   border: 3px solid #26c7ea;
   background: #0b0e66;
   top: 1630px;
+  display: block;
   position: absolute;
   margin-left: 609px;
 }
