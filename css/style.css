@@ -41,12 +41,9 @@ header {
   padding-right: 15px; */
 }
 .container {
-  width: 1030px;
-  /* outline: 4px solid black; */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1030px;
+  margin: auto;
+  padding: 15px;
 }
 
 .header-nav-list {
@@ -243,13 +240,6 @@ header {
   line-height: normal;
 }
 
-.nav-item-less {
-  width: 1030px;
-  height: 704px;
-  flex-shrink: 0;
-  background-image: url("../images/rectangle-20.png");
-  display: flex;
-}
 .learn-the-lesson {
   position: absolute;
   width: 285px;
@@ -313,6 +303,34 @@ header {
 
   background: rgba(255, 255, 255, 0.7);
 }
+.text-6 {
+  color: #141414;
+  text-align: justify;
+  font-family: "Headland One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  padding-top: 42px;
+  padding-left: 62px;
+}
+.right-arrow {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+  background-image: url("../images/rectangle-98.png");
+  margin: auto;
+}
+.translete-6 {
+  color: #141414;
+  text-align: justify;
+  font-family: "Headland One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  padding-left: 98px;
+}
 .case-one {
   position: absolute;
   width: 320px;
@@ -332,6 +350,13 @@ header {
   line-height: 24px; /* 100% */
   padding-top: 36px;
   padding-left: 120px;
+}
+.arrow-left {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+  background-image: url("../images/rectangle-42.png");
+  margin: auto;
 }
 .translete-one {
   color: #000;
@@ -398,6 +423,15 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 100% */
+  padding-top: 43px;
+  padding-left: 89px;
+}
+.birdie-2 {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+  background-image: url("../images/rectangle-100.png");
+  margin: auto;
 }
 .translete-five {
   color: #000;
@@ -407,6 +441,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 100% */
+  padding-left: 55px;
 }
 .case-four {
   position: absolute;
@@ -432,7 +467,7 @@ header {
   width: 152px;
   height: 40px;
   flex-shrink: 0;
-  background-image: url("../images/rectangle-42.png");
+  background-image: url("../images/rectangle-97.png");
   margin: auto;
 }
 .translete-four {
@@ -464,9 +499,10 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-.footer-position {
+.footer {
   width: 1440px;
   height: 223px;
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -477,5 +513,4 @@ header {
       rgba(43, 74, 97, 0.8)
     ),
     url("../images/rectangle-104.png");
-  background-repeat: no-repeat;
 }
