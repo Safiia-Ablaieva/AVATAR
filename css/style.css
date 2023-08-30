@@ -100,7 +100,6 @@ header {
   font-weight: 400;
   line-height: normal;
   width: 141px;
-
   flex-shrink: 0;
   border: 2px solid #26c7ea;
   border-radius: 35px 0px;
@@ -126,8 +125,10 @@ header {
 /* .hero-description {
 } */
 .hero-position {
-  display: flex;
   justify-content: space-between;
+}
+.hero-description {
+  display: flex;
 }
 .white-arrow {
   width: 152px;
@@ -135,6 +136,19 @@ header {
   background-image: url("../images/rectangl-53.png");
   background-position: center;
   background-size: cover;
+}
+.social-networks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: end;
+}
+.section-two {
+  width: 1440px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top: 57px; */
 }
 .section-three {
   width: 1440px;
@@ -162,7 +176,6 @@ header {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 57px;
 }
 
 .description {
@@ -217,6 +230,9 @@ header {
 }
 
 .birdie {
+  background-image: url("../images/rectangle-8.png");
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0 auto;
   display: block;
   padding-top: 8px;
@@ -244,7 +260,7 @@ header {
 
 .link-treyler {
   color: #26c7ea;
-  text-align: justify;
+  text-align: center;
   font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
@@ -258,13 +274,12 @@ header {
   border-radius: 45px 0px;
   border: 3px solid #26c7ea;
   background: #0b0e66;
-
   display: block;
 }
 .energy {
   color: #0a3853;
   text-align: center;
-  font-family: " Inter";
+  font-family: "Inter";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -289,10 +304,14 @@ header {
 
 .studiet-words {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
+  column-gap: 35px;
+  row-gap: 25px;
+  font-size: 24px;
 }
 .case-three {
-  width: 320px;
+  width: 310px;
   height: 240px;
 
   background: rgba(255, 255, 255, 0.7);
@@ -326,7 +345,7 @@ header {
   padding-left: 104px;
 }
 .case-six {
-  width: 320px;
+  width: 310px;
   height: 240px;
 
   background: rgba(255, 255, 255, 0.7);
@@ -360,7 +379,7 @@ header {
   padding-left: 98px;
 }
 .case-one {
-  width: 320px;
+  width: 310px;
   height: 240px;
   background: rgba(255, 255, 255, 0.7);
 }
@@ -394,7 +413,7 @@ header {
   padding-left: 122px;
 }
 .case-two {
-  width: 320px;
+  width: 310px;
   height: 240px;
 
   background: rgba(255, 255, 255, 0.7);
@@ -428,7 +447,7 @@ header {
   padding-left: 28px;
 }
 .case-five {
-  width: 320px;
+  width: 310px;
   height: 240px;
 
   background: rgba(255, 255, 255, 0.7);
@@ -462,7 +481,7 @@ header {
   padding-left: 55px;
 }
 .case-four {
-  width: 320px;
+  width: 310px;
   height: 240px;
 
   background: rgba(255, 255, 255, 0.7);
@@ -503,6 +522,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 75px;
 }
 .signature-2 {
   color: #000;
@@ -512,19 +532,55 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 16px;
 }
-.footer {
-  width: 1440px;
-  height: 223px;
 
+.footer {
+  max-width: 1440px;
+  height: 223px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-left: 204px;
+  padding-right: 204px;
+  align-items: center;
+
   background-image: linear-gradient(
       to right,
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.8)
     ),
-    url("../images/rectangle-104.png");
+    url("../images/Rectangle-104.png");
+  background-size: cover;
+  background-position: center;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+.footer-line {
+  margin-left: 80px;
+}
+.email-line {
+  height: 1.5px;
+  width: 269px;
+}
+.footer-emails-list {
+  margin-left: 80px;
+  width: 690px;
+  color: #ffffff;
+}
+.footer-emails-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-emails-list-item + .footer-emails-list-item {
+  margin-top: 16px;
+}
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
