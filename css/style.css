@@ -118,11 +118,13 @@ header {
   height: 740px;
   background-image: url("../images/group-48.png");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 180px;
   padding-bottom: 180px;
 }
-.hero-description {
-}
+/* .hero-description {
+} */
 .hero-position {
   display: flex;
   justify-content: space-between;
@@ -131,6 +133,8 @@ header {
   width: 152px;
   height: 40px;
   background-image: url("../images/rectangl-53.png");
+  background-position: center;
+  background-size: cover;
 }
 .section-three {
   width: 1440px;
@@ -140,6 +144,8 @@ header {
   justify-content: space-between;
   background-image: url("../images/rectangle-10.png");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .section-four {
   width: 1440px;
@@ -149,10 +155,14 @@ header {
 }
 .section-five {
   width: 1440px;
-  height: 740px;
-  flex-shrink: 0;
+  height: 704px;
   background-image: url("../images/Rectangle-20.png");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 57px;
 }
 
 .description {
@@ -197,17 +207,20 @@ header {
 
 .a-lot-of-people {
   color: #0a3853;
-  text-align: justify;
+  text-align: center;
   font-family: " Inter";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 75px;
 }
 
 .birdie {
   margin: 0 auto;
   display: block;
+  padding-top: 8px;
+  padding-bottom: 10px;
 }
 .thunderstorm {
   color: #0a3853;
@@ -226,6 +239,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 16px;
 }
 
 .link-treyler {
@@ -239,7 +253,8 @@ header {
   width: 260px;
   height: 80px;
   padding: 25px 19px 25px 20px;
-
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 45px 0px;
   border: 3px solid #26c7ea;
   background: #0b0e66;
@@ -247,38 +262,38 @@ header {
   display: block;
 }
 .energy {
-  color: #141414;
-  text-align: justify;
-  font-family: "Inter";
+  color: #0a3853;
+  text-align: center;
+  font-family: " Inter";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 75px;
 }
 
 .learn-the-lesson {
-  position: absolute;
   width: 285px;
   height: 40px;
-  left: 577px;
-
   font-family: "Headland One";
   font-style: normal;
-  font-weight: 400;
   font-size: 32px;
   line-height: 40px;
-
   text-align: justify;
-
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 58px;
+  padding-bottom: 85px;
   color: #141414;
 }
 
+.studiet-words {
+  display: flex;
+  flex-wrap: wrap;
+}
 .case-three {
-  position: absolute;
   width: 320px;
   height: 240px;
-  left: 917px;
-  top: 2474px;
 
   background: rgba(255, 255, 255, 0.7);
 }
@@ -311,11 +326,8 @@ header {
   padding-left: 104px;
 }
 .case-six {
-  position: absolute;
   width: 320px;
   height: 240px;
-  left: 915px;
-  top: 2738px;
 
   background: rgba(255, 255, 255, 0.7);
 }
@@ -348,12 +360,8 @@ header {
   padding-left: 98px;
 }
 .case-one {
-  position: absolute;
   width: 320px;
   height: 240px;
-  left: 204px;
-  top: 2474px;
-
   background: rgba(255, 255, 255, 0.7);
 }
 .text-one {
@@ -386,11 +394,8 @@ header {
   padding-left: 122px;
 }
 .case-two {
-  position: absolute;
   width: 320px;
   height: 240px;
-  left: 560px;
-  top: 2474px;
 
   background: rgba(255, 255, 255, 0.7);
 }
@@ -423,11 +428,8 @@ header {
   padding-left: 28px;
 }
 .case-five {
-  position: absolute;
   width: 320px;
   height: 240px;
-  left: 560px;
-  top: 2738px;
 
   background: rgba(255, 255, 255, 0.7);
 }
@@ -460,11 +462,8 @@ header {
   padding-left: 55px;
 }
 .case-four {
-  position: absolute;
   width: 320px;
   height: 240px;
-  left: 204px;
-  top: 2738px;
 
   background: rgba(255, 255, 255, 0.7);
 }
@@ -497,14 +496,13 @@ header {
   padding-left: 112px;
 }
 .great-mom {
-  color: #141414;
-  text-align: justify;
-  font-family: "Inter";
+  color: #0a3853;
+  text-align: center;
+  font-family: " Inter";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: auto;
 }
 .signature-2 {
   color: #000;
