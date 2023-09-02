@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
 body {
-  width: 1440px;
-  margin: 0;
-  padding: 0;
+  font-family: "Inter";
+  font-size: 20px;
 }
 ul {
   list-style: none;
@@ -31,14 +29,12 @@ header {
   height: 150px;
   margin-left: auto;
   margin-right: auto;
-
-  /* justify-content: space-between; */
   background-image: linear-gradient(
       to right,
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.8)
     ),
-    url("../images/Rectangle-104.png");
+    url("../images/rectangle-104.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,17 +56,8 @@ header {
 }
 
 .header-nav-list {
-  /* text-align: center;
-  font-family: "Inter";
-  font-size: 20px;
-  display: flex;
-  font-style: normal;
-  font-weight: 300;
-  text-decoration: none; */
   display: flex;
   margin-left: 168px;
-  /* justify-content: space-between; */
-  /* width: 325px; */
 }
 
 .header-nav-link {
@@ -90,6 +77,9 @@ header {
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: #94cfff;
+}
+.list-networks + .list-networks {
+  margin-top: 25px;
 }
 .entrance {
   color: #26c6ea;
@@ -119,23 +109,17 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 180px;
   padding-bottom: 180px;
 }
-/* .hero-description {
-} */
 .hero-position {
+  display: flex;
   justify-content: space-between;
 }
-.hero-description {
-  display: flex;
-}
 .white-arrow {
-  width: 152px;
-  height: 40px;
-  background-image: url("../images/rectangl-53.png");
-  background-position: center;
-  background-size: cover;
+  margin-left: 53px;
 }
 .social-networks {
   display: flex;
@@ -148,11 +132,11 @@ header {
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 57px; */
 }
 .section-three {
   width: 1440px;
-  /* height: 740px; */
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 330px;
   padding-bottom: 330px;
   justify-content: space-between;
@@ -179,13 +163,10 @@ header {
 }
 
 .description {
-  font-family: "Inter";
-  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  position: absolute;
-  top: 330px;
+
   color: #ffffff;
 }
 .description-translete {
@@ -194,12 +175,12 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  position: absolute;
-  top: 450px;
+
   color: #ffffff;
 }
 
 .link-to-clan {
+  display: block;
   color: #26c7ea;
   text-align: center;
   font-family: "Headland One";
@@ -208,11 +189,8 @@ header {
   font-weight: 400;
   line-height: normal;
   width: 260px;
-  height: 80px;
-
-  font-family: "Inter";
-  /* padding: 10px; */
-
+  padding: 10px 30px;
+  margin-top: 42px;
   border: 2px solid #26c7ea;
   border-radius: 35px 0px;
   background-color: #0b0e66;
@@ -267,7 +245,6 @@ header {
   font-weight: 400;
   line-height: normal;
   width: 260px;
-  height: 80px;
   padding: 25px 19px 25px 20px;
   margin-left: auto;
   margin-right: auto;
@@ -310,209 +287,68 @@ header {
   row-gap: 25px;
   font-size: 24px;
 }
-.case-three {
-  width: 310px;
-  height: 240px;
-
-  background: rgba(255, 255, 255, 0.7);
-}
-.text-3 {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-top: 45px;
-  padding-left: 99px;
+.right-arrow {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+  background-image: url("../images/rectangle-96.jpg");
+  margin: auto;
 }
 .right-arrow {
   width: 152px;
   height: 40px;
   flex-shrink: 0;
-  background-image: url("../images/rectangle96.png");
+  background-image: url("../images/rectangle-42.jpg");
   margin: auto;
-}
-.translete-3 {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-left: 104px;
-}
-.case-six {
-  width: 310px;
-  height: 240px;
-
-  background: rgba(255, 255, 255, 0.7);
-}
-.text-6 {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-top: 42px;
-  padding-left: 62px;
-}
-.right-arrow {
-  width: 152px;
-  height: 40px;
-  flex-shrink: 0;
-  background-image: url("../images/rectangle-98.png");
-  margin: auto;
-}
-.translete-6 {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-left: 98px;
-}
-.case-one {
-  width: 310px;
-  height: 240px;
-  background: rgba(255, 255, 255, 0.7);
-}
-.text-one {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-top: 36px;
-  padding-left: 120px;
 }
 .arrow-left {
   width: 152px;
   height: 40px;
   flex-shrink: 0;
-  background-image: url("../images/rectangle-42.png");
+  background-image: url("../images/rectangle-42.jpg");
   margin: auto;
-}
-.translete-one {
-  color: #000;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-bottom: 36px;
-  padding-left: 122px;
-}
-.case-two {
-  width: 310px;
-  height: 240px;
-
-  background: rgba(255, 255, 255, 0.7);
-}
-.text-two {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-top: 36px;
-  padding-left: 90px;
 }
 .text-birdie {
   width: 152px;
   height: 40px;
   flex-shrink: 0;
-  background-image: url("../images/rectangle-99.png");
+  background-image: url("../images/rectangle-99.jpg");
   margin: auto;
-}
-.translete-two {
-  color: #000;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-left: 28px;
-}
-.case-five {
-  width: 310px;
-  height: 240px;
-
-  background: rgba(255, 255, 255, 0.7);
-}
-.text-five {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-top: 43px;
-  padding-left: 89px;
 }
 .birdie-2 {
   width: 152px;
   height: 40px;
-  flex-shrink: 0;
-  background-image: url("../images/rectangle-100.png");
+  background-image: url("../images/rectangle-99.jpg");
   margin: auto;
 }
-.translete-five {
-  color: #000;
-  text-align: justify;
+.case {
+  color: #141414;
+
   font-family: "Headland One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-left: 55px;
-}
-.case-four {
-  width: 310px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   height: 240px;
-
+  width: 310px;
   background: rgba(255, 255, 255, 0.7);
 }
-.text-four {
-  color: #141414;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
+.text {
   padding-top: 36px;
-  padding-left: 122px;
+}
+.translation {
+  padding-bottom: 36px;
 }
 .arrow-left {
   width: 152px;
   height: 40px;
   flex-shrink: 0;
-  background-image: url("../images/rectangle-97.png");
+  background-image: url("../images/rectangle-42.jpg");
   margin: auto;
-}
-.translete-four {
-  color: #000;
-  text-align: justify;
-  font-family: "Headland One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 100% */
-  padding-left: 112px;
 }
 .great-mom {
   color: #0a3853;
@@ -551,13 +387,19 @@ header {
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.8)
     ),
-    url("../images/Rectangle-104.png");
+    url("../images/rectangle-12.png");
   background-size: cover;
   background-position: center;
 }
 .footer-content {
   display: flex;
   align-items: center;
+}
+.qatext {
+  font-size: 20px;
+}
+.qa-contact {
+  font-size: 20px;
 }
 .footer-line {
   margin-left: 80px;
@@ -580,7 +422,6 @@ header {
   margin-top: 16px;
 }
 .mark {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #ffffff;
+  margin-left: 474px;
 }
