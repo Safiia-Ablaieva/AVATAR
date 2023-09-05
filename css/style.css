@@ -29,6 +29,8 @@ header {
   height: 150px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
   background-image: linear-gradient(
       to right,
       rgba(43, 74, 97, 0.87),
@@ -102,7 +104,8 @@ header {
   padding-bottom: 10px;
 }
 .change {
-  margin-left: 1285px;
+  margin-left: 49px;
+  margin-right: 49px;
   color: #ffffff;
 }
 
